@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="index.html">Back Home</a>
+    <form
+      id="contact-me"
+      action="mailto: vglazkoff@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label for="name">What is your name?</label>
+      <input name="yourName" type="text" id="name" required />
+      <label for="email">What is your email?</label>
+      <input name="yourEmail" type="email" id="email" required />
+      <label for="message">Type your message:</label>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
